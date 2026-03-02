@@ -1,1 +1,1 @@
-export const Narbar = () => {};
+export const Navbar = () => {};

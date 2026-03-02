@@ -4,7 +4,7 @@ import "./styles/global.css";
 function App() {
   return (
     <>
-      <Narbar />
+      <Navbar />
     </>
   );
 }
