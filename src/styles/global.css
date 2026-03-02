@@ -1,0 +1,19 @@
+/* Default Font */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+
+/* Global CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond";
+}
+
+/* Main container for the whole website */
+.container {
+  width: 100%;
+  padding: 0 24px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
