@@ -7,6 +7,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Cormorant Garamond";
+  background-color: var(--primaryBg-color);
+}
+
+/* colors */
+:root {
+  /* background colors */
+  --primaryBg-color: #fafafa;
+  /* text colors */
+  --primary-color: #525252;
+  --secondary-color: #171717;
+  --accent-color: #6b21a8;
 }
 
 /* Main container for the whole website */
