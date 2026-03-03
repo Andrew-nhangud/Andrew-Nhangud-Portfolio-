@@ -1,4 +1,8 @@
 /* Styles for the navbar */
+.u {
+  margin-top: 80px;
+  background-color: rgb(0, 255, 170);
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,12 +12,10 @@ nav {
   right: 1px;
   top: 0px;
 }
-/* Changing the the A tag */
 a {
   text-decoration: none;
   color: var(--primary-color);
 }
-
 /* SVG icon side bar menu */
 .menu-icon {
   height: 20px; /* settting the height of the icons of the menu */
@@ -49,27 +51,29 @@ a {
   display: none;
 }
 
-/* removing the menu for mobile on larger screens */
-.remove-mobile-menu {
-  display: none;
-}
+@media (min-width: 768px) {
+  /* removing the menu for mobile on larger screens */
+  .remove-mobile-menu {
+    display: none;
+  }
 
-/* displaying the menu for larger screens */
-.remove-larger-menu {
-  display: block;
-}
+  /* displaying the menu for larger screens */
+  .remove-larger-menu {
+    display: block;
+  }
 
-/* updating the list on larger screens */
-.larger-menu ul {
-  display: flex;
-  gap: 25px;
-  color: var(--primary-color);
-  list-style: none;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-}
-.larger-menu ul:hover {
-  color: var(--secondary-color);
+  /* updating the list on larger screens */
+  .larger-menu ul {
+    display: flex;
+    gap: 25px;
+    color: var(--primary-color);
+    list-style: none;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+  }
+  .larger-menu ul:hover {
+    color: var(--secondary-color);
+  }
 }
 
 @media (min-width: 1200px) {
