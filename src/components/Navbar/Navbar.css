@@ -79,7 +79,7 @@ a {
 @media (min-width: 1200px) {
   nav {
     position: fixed; /* fixing the position of the navbar */
-    right: 73px;
+    right: 85px;
   }
   .larger-menu ul {
     letter-spacing: 5px;
